@@ -2,10 +2,13 @@
 
 int main()
 {
+	// currVal 保存当前要处理的数字
+	// val 保存输入的数字
 	int currVal = 0, val = 0;
 
 	if (std::cin >> currVal) {
-		int cnt = 1;
+	//检测输入是否为空
+		int cnt = 1;	//计数变量
 		while (std::cin >> val) {
 			if (val == currVal)
 				cnt ++;
