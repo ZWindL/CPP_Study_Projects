@@ -1,3 +1,6 @@
+/*
+ * My own version
+ */
 #include <iostream>
 
 int main()
