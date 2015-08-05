@@ -14,13 +14,13 @@ int main()
 				cnt ++;
 			else {
 				std::cout << currVal << " 出现"
-					<< cnt << "次" << std::endl;
+					<< cnt << "次\a" << std::endl;
 				currVal = val;
 				cnt = 1;
 			}
 		}
 
-		std::cout << currVal << " 出现" << cnt
+		std::cout << currVal << " 出现\a" << cnt
 			<< "次" << std::endl;
 	}
 	return 0;

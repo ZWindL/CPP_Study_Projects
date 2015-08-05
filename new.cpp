@@ -2,10 +2,15 @@
 
 int main()
 {
-	short a = -2;
-	unsigned short b = a;
+	for (unsigned i = 11; i > 0; --i)
+		std::cout << i << std::endl;
 
-	std::cout << b << std::endl;
-	std::cout << -1 % 255 << std::endl;
+	unsigned j = 11;
+
+	while (j > 0)
+	{
+		j --;
+		std::cout << j << std::endl;
+	}
 	return 0;
 }
