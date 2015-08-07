@@ -1,5 +1,7 @@
 /*
  * My own version
+ * Copyright by Z.Wind.L 
+ * 2015-2015
  */
 #include <iostream>
 

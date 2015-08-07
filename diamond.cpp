@@ -3,9 +3,10 @@
 int main()
 {
 	int lines;
-	std::cout << "本程序用来现实一个指定行数的菱形" << std::endl
-		  <<"请输入想要显示的行数:";
+	std::cout << "本程序用来显示一个指定行数的菱形" << std::endl
+		  << "请输入想要显示的行数:";
 	std::cin >> lines;
+	std::cout << std::endl;
 
 	//处理输入，使其符合要求
 	if(lines < 1)	//判断输入是否大于 0

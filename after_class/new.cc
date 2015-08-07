@@ -2,10 +2,8 @@
 
 int main()
 {
-	unsigned u = 10, u2 = 42;
-	std::cout << u - u2 << std::endl;
-
-	int i = 10, i2 = 42;
-	std::cout << i - i2 << std::endl;
+	std::cout << sizeof("哈哈哈哈") << std::endl;
+	std::cout << sizeof("abc") << std::endl;
+	std::cout << 1.9E1 << std::endl;
 	return 0;
 }
