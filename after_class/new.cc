@@ -2,8 +2,9 @@
 
 int main()
 {
-	std::cout << sizeof("哈哈哈哈") << std::endl;
-	std::cout << sizeof("abc") << std::endl;
-	std::cout << 1.9E1 << std::endl;
+	int i = 0, &ri = i;
+
+	i = 5; ri = 10;
+	std::cout << i << " " << ri << std::endl;
 	return 0;
 }

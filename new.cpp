@@ -2,15 +2,12 @@
 
 int main()
 {
-	for (unsigned i = 11; i > 0; --i)
-		std::cout << i << std::endl;
+	int a = {3.14};
+	int b{3.14};
+	int c = (3.14);
+	int d(3.14);
+	int e = 3.14;
 
-	unsigned j = 11;
-
-	while (j > 0)
-	{
-		j --;
-		std::cout << j << std::endl;
-	}
+	std::cout << a << b << c << d << e << std::endl;
 	return 0;
 }
