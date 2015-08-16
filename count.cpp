@@ -26,7 +26,6 @@ int main()
 			<< "出现了" << count
 			<< "次" << std::endl;
 	}
-
 	return 0;
 }
 
