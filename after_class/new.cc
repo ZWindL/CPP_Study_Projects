@@ -2,9 +2,11 @@
 
 int main()
 {
-	int i = 0, &ri = i;
+	int i = 0;
+	int *p = nullptr;
 
-	i = 5; ri = 10;
-	std::cout << i << " " << ri << std::endl;
-	return 0;
+	p = &i;
+	if (std::cout << *p << std::endl)
+		return 0;
+	return 9;
 }
