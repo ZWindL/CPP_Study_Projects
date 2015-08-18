@@ -3,7 +3,7 @@
 int main()
 {
 	int i = 0;
-	int *p = nullptr;
+        int *p = nullptr;
 
 	p = &i;
 	if (std::cout << *p << std::endl)
