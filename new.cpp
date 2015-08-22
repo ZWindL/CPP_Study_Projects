@@ -1,7 +1,9 @@
 #include <iostream>
+#include "new.h"
 
 int main()
 {
-	std::cout << "test" << std::endl;
+	extern const int a;
+	std::cout << a << std::endl;
 	return 0;
 }
