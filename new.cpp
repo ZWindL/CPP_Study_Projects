@@ -16,6 +16,9 @@ int main()
 	//int *const p1 = &j;	//(顶层 const) 指針本身只读，但不限定指向的內容只读
 	const int *const p1 = &j;	//(底层 const) 限定指向的內容不可更改
 
+	const int &r1 = i;
+	//int &r2 = r1;
+
 	int &r = i;
 	//int &r1 = j;
 	
