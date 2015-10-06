@@ -3,7 +3,8 @@
  * Copyright by Z.Wind.L 
  * 2015-2015
  */
-#include <iostream>
+#include<iostream>
+using namespace std;
 
 int main()
 {
