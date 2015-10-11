@@ -1,3 +1,8 @@
+/*
+ * This is a class to test
+ * some disign patterns
+ */
+
 #include <iostream>
 
 using namespace std;

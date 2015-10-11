@@ -6,12 +6,9 @@ int main()
 {
 	using namespace apple;
 	string s = "hello";
-
-	apple_ a;
-	a.print_sth();
-	a.count = 0;
-
+	s.clear();
+	apple_ aple;
+	aple.print_sth();
 	cout << s << endl;
-
 	return 0;
 }
