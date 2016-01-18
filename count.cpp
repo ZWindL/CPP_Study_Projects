@@ -27,5 +27,6 @@ int main()
 			<< "出现了" << count
 			<< "次" << std::endl;
 	}
+	cout << "程序结束" << endl;
 	return 0;
 }

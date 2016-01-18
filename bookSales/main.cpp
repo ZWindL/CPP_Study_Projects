@@ -6,9 +6,8 @@ using namespace std;
 
 int main()
 {
-	Sales_item item;
-
-	cin >> item;
-	cout << item.isbn() << endl;
+	Sales_item book, book1;
+	std::cin >> book >> book1;
+	std::cout << book + book1 << std::endl;
 	return 0;
 }
