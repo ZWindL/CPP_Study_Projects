@@ -4,7 +4,6 @@
  * 2015-2015
  */
 #include<iostream>
-using namespace std;
 
 int main()
 {
@@ -27,6 +26,6 @@ int main()
 			<< "出现了" << count
 			<< "次" << std::endl;
 	}
-	cout << "程序结束" << endl;
+	std::cout << "程序结束" << std::endl;
 	return 0;
 }
