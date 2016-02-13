@@ -1,13 +1,12 @@
 #include <iostream>
 #include "Sales_item.h"
 
-using namespace std;
-
 int main()
 {
 	Sales_item total;
+	
 	std::cout << "Program Begin" << std::endl;
-
+	
 	if(std::cin >> total) {
 		Sales_item current;
 		while(std::cin >> current) {
@@ -15,7 +14,7 @@ int main()
 				total += current;
 			else {
 				std::cout << total << std::endl;
-				cout << total.isbn() << endl;
+				std::cout << total.isbn() << std::endl;
 				total = current;
 			}
 		}

@@ -3,11 +3,39 @@
  * Copyright by Z.Wind.L 
  * 2015-2015
  */
-#include<iostream>
+#include <iostream>
+class test {
+	public:
+		int b;
+		void print() {
+			std::cout << b << std::endl;
+		}
+		test() {
+			b = 0;
+		}
+	private:
+		int private_i;
+		void print_i() {
+			std::cout 
+				<< "This is a private function" 
+				<< std::endl;
+		}
+};
+
+void func(int a) {
+	std::cout << a << std::endl;
+}
 
 int main()
 {
+	//typedef char *pstring;
+	//const pstring cstr = 0;
+	//const pstring *ps;
 	int currentVal = 0, val = 0;
+	// 测试类的定义和函数高亮
+	func(2);
+	test a;
+	a.print();
 
 	if (std::cin >> currentVal) {
 		int count = 1;

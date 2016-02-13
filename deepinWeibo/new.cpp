@@ -29,8 +29,11 @@ int main() {
 	int arr[8] = {1, 2, 3, 4, 5, 6, 7, 8};
 	cout << "Program begin" << endl;
 
-	for(int i=8; i > 1; i++) {
-	}
+	auto sum =  0;
 
+	for(auto i : arr) 
+		sum += i;
+
+	std::cout << sum << std::endl;
 	return 0;
 }

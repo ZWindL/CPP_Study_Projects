@@ -1,14 +1,14 @@
 #include <iostream>
 #include <string>
-#include "test.h"
+#include "apple.hpp"
 
 int main()
 {
 	using namespace apple;
-	string s = "hello";
+	std::string s = "hello";
 	s.clear();
 	apple_ aple;
 	aple.print_sth();
-	cout << s << endl;
+	std::cout << s << std::endl;
 	return 0;
 }
