@@ -8,7 +8,7 @@ using std::string;
 
 int main() {
 	string s("What the fuck!?");
-
+	
 	cout << s << endl;
 	
 	for(auto c : s) {

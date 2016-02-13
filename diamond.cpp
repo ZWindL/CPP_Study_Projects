@@ -1,3 +1,4 @@
+// 该程序用来输出指定行数的菱形
 #include <iostream>
 using namespace std;
 
