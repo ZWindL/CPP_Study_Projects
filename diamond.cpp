@@ -28,6 +28,7 @@ int main()
 	 * 逆序执行内层的两个循环
 	 * 只用两个变量控制循环：成功
 	 */
+
 	int tmp = 0;
 	for (int i=0; i<lines+1; i++)
 	{
