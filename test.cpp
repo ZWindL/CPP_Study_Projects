@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 int main()
 {
@@ -7,6 +8,8 @@ int main()
 	// val 保存输入的数字
 	int currVal = 0, val = 0;
 
+	std::vector<int> v;
+	v.size();
 
 	if (cin >> currVal) {
 	//检测输入是否为空

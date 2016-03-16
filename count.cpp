@@ -1,13 +1,19 @@
 /*
  * My own version
- * Copyright by Z.Wind.L 
+ * Copyright by Z.Wind.L
  * 2015-2015
  */
 #include <iostream>
+#include <vector>
+
+std::string s;
+std::vector<char> v(1);
+
 class test {
 	public:
 		int b;
 		void print() {
+			std::cerr << "test" << std::endl;
 			std::cout << b << std::endl;
 		}
 		test() {
@@ -16,8 +22,8 @@ class test {
 	private:
 		int private_i;
 		void print_i() {
-			std::cout 
-				<< "This is a private function" 
+			std::cout
+				<< "This is a private function"
 				<< std::endl;
 		}
 };
@@ -35,7 +41,7 @@ int main()
 	// 测试类的定义和函数高亮
 	func(2);
 	test a;
-	a.print();
+	a.b = 5;
 
 	if (std::cin >> currentVal) {
 		int count = 1;
