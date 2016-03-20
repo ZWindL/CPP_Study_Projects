@@ -6,6 +6,7 @@ using std::vector;
 
 int main(void)
 {
+	//std::cout << "test" << std::endl;
 	std::string s;
 	vector<Sales_item> items;
 	Sales_item::Sales_item ttt;

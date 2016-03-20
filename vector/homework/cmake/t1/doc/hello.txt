@@ -1,0 +1,2 @@
+just run hello.sh is ok
+

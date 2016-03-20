@@ -4,15 +4,8 @@
 using namespace std;
 
 int main() {
-	vector<string> a{
-		"fdjkldf",
-		"fjdlfsj",
-		"jljdaldjf"
-	};
-	cout << a.size() << endl;
-
-	for (auto i : a) {
-		std::cout << i << std::endl;
-	}
+	//test err and out
+	std::cout << "This is stdout" << std::endl;
+	std::cerr << "This is stderr" << std::endl;
 	return 0;
 }
