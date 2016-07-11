@@ -1,9 +1,15 @@
 // 该程序用来输出指定行数的菱形
 #include <iostream>
-using namespace std;
+#include <string>
+#include <vector>
+using std::cin;
+using std::cout;
+using std::endl;
+using std::cerr;
 
 int main()
 {
+	std::vector<std::string> vs;
 	int lines;
 	cout << "本程序用来显示一个指定行数的菱形" << endl
 		  << "请输入想要显示的行数:";

@@ -5,6 +5,7 @@ int main() {
 	using std::cout; //使用命名空间 std 中的 cout
 	using std::endl; //使用命名空间 std 中的 endl
 	using std::string;
+	using std::cin;
 	
 	string s1("c");
 	string s2(2, '2');
@@ -16,6 +17,7 @@ int main() {
 	cout << s3 << endl;
 	cout << (*s4).length() << endl;
 	cout << s3.size() << endl;
+	cin >> s1;
 	
 	return 0;
 }

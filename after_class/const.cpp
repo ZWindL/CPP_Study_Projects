@@ -1,6 +1,8 @@
 #include <iostream>
 
 int main() {
+	using str = std::string;
+	typedef std::string string;
 	/*const int i = 42;
 	auto j = i;
 	const auto &k = i;
@@ -10,7 +12,7 @@ int main() {
 	//decltype(func()) p;
 	auto t = "tetetet";
 	std::cout << t << std::endl;
-	int a = 3, b = 4;
+	int * a = nullptr, * b = nullptr;
 	decltype(a) c = a;
 	decltype((b)) d = a;
 	++c;

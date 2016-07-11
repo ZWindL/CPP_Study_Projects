@@ -1,5 +1,10 @@
 #include <iostream>
 #include <vector>
+#include <curl/curl.h>
+
+int test(int t=0){
+	return t;
+}
 
 int main()
 {

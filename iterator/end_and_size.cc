@@ -1,6 +1,18 @@
 #include <iostream>
 #include <vector>
 
+class My_class
+{
+public:
+	My_class (int param){
+		this->param = param;
+	}
+	virtual ~My_class ();
+
+private:
+	int param = 0;
+};
+
 int main(void)
 {
 	std::vector<int> vnums(10, 5);

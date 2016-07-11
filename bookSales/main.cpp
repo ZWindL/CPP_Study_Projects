@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 #include "Sales_item.h"
 
 int main()
